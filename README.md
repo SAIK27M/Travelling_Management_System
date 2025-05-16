@@ -1,44 +1,76 @@
-# Online Bus Ticket Booking System for Travel Management
->The Online Bus Ticket Booking System for Travel Management is a mini project that aims to provide a convenient and user-friendly platform for travelers to search and book bus tickets online. This project utilizes the power of database management using MySQL to store and manage the necessary information related to buses, routes, schedules, and bookings.
+# 🚌 Online Bus Ticket Booking System for Travel Management
 
-The system allows users to search for buses based on their desired origin and destination, along with the preferred travel date. Upon entering these details, the system retrieves relevant information from the database and displays available bus options, including departure time, duration, fare, and seat availability.
+The Online Bus Ticket Booking System is a project designed to offer a seamless and user-friendly platform for travelers to search and book bus tickets online. It uses PHP and MySQL for backend and database management, while the frontend is built using HTML5, CSS, JavaScript, and Bootstrap 4. The system enables users to search buses by route and date, view available schedules, fares, and seat availability, and proceed with bookings.
 
-### Technology used :
-         
-- phpmyadmin used for mysql database
+---
 
-- php used for backend
+## 💻 Technologies Used
 
-- html5 | css | javascript | bootstrap4 for frontend
-          
-- Xampp server
+- Backend: PHP
+- Frontend: HTML5, CSS3, JavaScript, Bootstrap 4
+- Database: MySQL (via phpMyAdmin)
+- Server: XAMPP
 
-### Guidline :
+---
 
-step 1:- Install Xampp 
+## 🚀 Features
 
-step 2:- Open Xampp folder and  paste the whole project inside htdocs folder
+- Search buses based on source, destination, and travel date  
+- View bus schedule, timing, fare, and seat availability  
+- Admin panel to manage buses, routes, and bookings  
+- Simple login system for admin
 
-step 3:- Start Xampp server and start apache and mysql
+---
 
-step 4:- open phpmyadmin using this link http://localhost/phpmyadmin/ and create a database with name (transport) name should be same otherwise it so error
+## 📦 Setup Instructions
 
-step 5:- inside the project folder a file is transport.sql is import in phpmyadmin inside transport database
+Follow the steps below to set up and run the project locally using XAMPP:
 
-step 6:- check your project http://localhost/transport/
+### 🔧 Installation Steps
 
-step 7:- admin username :-admin and password : admin
+1. Install [XAMPP](https://www.apachefriends.org/index.html) on your system.
+2. Copy the project folder into the `htdocs` directory inside your XAMPP installation.  
+   _Example path:_ `C:\xampp\htdocs\Travelling_Management_System`
+3. Open XAMPP Control Panel and start:
+   - Apache
+   - MySQL
+4. Open your browser and navigate to:
+http://localhost/phpmyadmin/
+5. Create a new database with the name:
+6. Import the SQL file:
+- Locate `transport.sql` file in your project directory
+- Go to the `transport` database in phpMyAdmin → Import → Select the `transport.sql` file → Click "Go"
+7. Launch the project in your browser:
+http://localhost/Travelling_Management_System/
 
-## Connect with me ~Rajesh Rathore
+---
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rajesh-rathore-0501/)
-[![Website Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://linktr.ee/rajesh_rathore)
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/Rajesh946055)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/raj_rathod1313/?hl=en)
+## 🔐 Admin Login
 
+- **Username:** `admin`  
+- **Password:** `admin`
 
-***Do star, fork and share the repo to show your support, it would help others too!***   <br>
- <br>
- Let me know your views or any changes or improvements or contribute to make better for others 
- 
- :heart: ***Thank you all for Forking this repository and contribute***  :heart:
+---
+
+## 🤝 Connect with Me
+
+**Sai Rakesh Kakarla**  
+📫 https://www.linkedin.com/in/sairakeshkakarla/
+
+---
+
+## ⭐ Support & Contribution
+
+If you found this project helpful:
+
+- ⭐ Star this repository
+- 🍴 Fork it
+- 🛠️ Suggest improvements or submit pull requests
+
+> Let's make this project better together! Your support means a lot 💖
+
+---
+
+## 🙏 Acknowledgement
+
+Thanks to everyone who forks, shares, or contributes to this repository!
